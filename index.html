@@ -2,12 +2,14 @@
 <html>
   <head>
       <style>
-          body{
+          .photos-holder{
           display:grid;
-          grid-template-columns: auto auto auto;
-          background-color:rgb(226, 137, 204)
+          grid-template-columns: 1fr 1fr 1fr;
           }
-
+        
+        body{
+            background-color:rgb(226, 137, 204)
+        }
           .photo{
             height:350px;  
             background-size: cover;
@@ -33,12 +35,18 @@
               background-image:url(photo-6.jpg)
           }
 
+          h1{
+              text-align: center;
+          }
+
       </style>
   </head>
 
   
   <body>
-      
+
+    <h1>Friend-o-Gram</h1>
+      <div class="photos-holder">
     <div class="photo" id="photo-1"></div>
     <div class="photo" id="photo-2"></div>
     <div class="photo" id="photo-3"></div>
@@ -46,6 +54,7 @@
     <div class="photo" id="photo-5"></div>
     <div class="photo" id="photo-6"></div>
     
+        </div>
   </body>
 
 
