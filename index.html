@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+          body{
+          display:grid;
+          grid-template-columns: auto auto auto;
+          background-color:rgb(226, 137, 204)
+          }
+
+          .photo{
+            height:350px;  
+            background-size: cover;
+            background-position: 50% 50% ;
+            border-style: solid;
+            border-color: rgb(151, 47, 125);
+          }
+          #photo-1{
+              background-image:url(photo-1.jpg);
+              background-position: 0% 70%;
+          }
+          #photo-2{
+              background-image:url(photo-2.jpg)
+          }#photo-3{
+              background-image:url(photo-3.jpg)
+          }#photo-4{
+              background-image:url(photo-4.jpg);
+              background-position: 0% 40%;
+          }#photo-5{
+              background-image:url(photo-5.jpg);
+              background-position: 0% 70%;
+          }#photo-6{
+              background-image:url(photo-6.jpg)
+          }
+
+      </style>
+  </head>
+
+  
+  <body>
+      <div>
+    <div class="photo" id="photo-1"></div>
+    <div class="photo" id="photo-2"></div>
+    <div class="photo" id="photo-3"></div>
+    <div class="photo" id="photo-4"></div>
+    <div class="photo" id="photo-5"></div>
+    <div class="photo" id="photo-6"></div>
+    </div>
+  </body>
+
+
+</html>
